@@ -9,15 +9,18 @@ int main() {
 
     /*
     Logic
-    Let z=max(x,y)
+    Let z=max(x,y)      --> This gives the n*n type-square
     Look at pattern for even and odd z
 
-    If z is even 
-    a) If column==z then cell number = z^2 - y
-    b) If row==z then at row=z,column=1 ==:> Cell number is (n-1)^2 + 1 
-            And for column = k we have cell number = (n-1)^2+k
+    If z is even
+        a) If y==z: We are on bottom row
+                Starting with z^2 at column 1, the number decreases as we move right
+                Cell number = z^2 -x +1
+        b) If x==z: The number of cells in inner squares is (z-1)^2
+                Number increases as we move down
+                Cell number = z^2 + 1
 
-    Same logic apply for z odd but in reverse
+    Applying similar logic for z is odd
     */
 
     // Code
