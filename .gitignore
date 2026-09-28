@@ -1,0 +1,27 @@
+# Build files
+*.o
+*.out
+*.exe
+
+# VS Code
+.vscode/
+
+# CMake
+build/
+cmake-build-*/
+
+# Compiled files
+*.exe
+*.out
+*.o
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+Thumbs.db
